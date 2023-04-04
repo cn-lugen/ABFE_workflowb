@@ -1,0 +1,34 @@
+name: abfe
+channels:
+  - conda-forge
+dependencies:
+  - python >=3.8,<3.11
+  - pip
+  - conda-build
+  - gromacs=2022.2
+  - parmed
+  - pdbfixer
+  - openmm
+  - openff-toolkit
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - nbsphinx==0.8.7
+  - sphinx==4.1.2
+
+  - michellab/label/dev::biosimspace
+  - bioconda::snakemake
+  #- nvidia::cuda-toolkit=11.4.2
+  - pip:
+    - alchemlyb==2.0.0
+    - pymbar==4.0.1
+    - MDRestraintsGenerator
+    - matplotlib
+    - numpy
+    - scipy
+    - pandas
+    - mdanalysis
+    - TOFF
+    - tabulate==0.8.10
+    - recommonmark
+    - sphinx_rtd_theme
